@@ -23,12 +23,16 @@ A DIY, led filled, Christmas jumper that is fully customisable and can be hacked
 - A controller that is RP2040 based
     - I used a Pimoroni [Plasma 2040](https://shop.pimoroni.com/products/plasma-2040?variant=39410354847827)
 - A method of powering them
-    - I just used a usb battery bank or the wall
+    - I just used a usb battery bank, however you can just plug it into the wall
 
 ## Installation
-### Main Part number
-#### Secondary Part Number
-Instruction
-```language
-  code
+### Part 1 - Preparing the Plasma2040
+#### Part 1.1 - Download the firmware
+Go to the [Pimoroni repository](https://github.com/pimoroni/pimoroni-pico) and download the correct image.
+
+Downlad the file with the name that resembles the example below:
+```text
+pico-v1.xx.x-pimoroni-micropython.uf2
 ```
+#### Part 1.2 - Flash the firmware
+#### Part 1.3 - Connect the LED strip
