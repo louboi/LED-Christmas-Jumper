@@ -50,15 +50,32 @@ pico-v1.xx.x-pimoroni-micropython.uf2
 - Connect the middle wire to the terminal labeled DA
 - Connect the final wire to the terminal labeled -
 
-### Part 2 - Start running code on the Plasma2040
-#### Method 1 - Thonny
+### Part 2 - Prepare to start running code on the Plasma2040
+#### Editor 1 - Thonny
 - Download Thonny from [here](https://thonny.org/)
 - Open Thonny and click in the bottom right to change interpreter and select "MicroPython (Raspberry Pi Pico)"
     - If this doesn't work then refer to the [wiki](https://github.com/louboi/LED-Christmas-Jumper/wiki) for more help
 
-#### Method 2 - VS Code (My preferred method - and the one used in example images)
+#### Editor 2 - VS Code (My preferred editor - and the one used in example images)
 - Download VS from [here](https://code.visualstudio.com/)
 - Open VS and go to the extension tab and search for "MicroPico" and install it
     - Also ensure you have the python extensions installed
 - Plug your Plasma2040 in and it should automatically install
     - If this doesn't work then refer to the [wiki](https://github.com/louboi/LED-Christmas-Jumper/wiki) for more help
+
+### Part 3 - Actually run code on the Plasma2040
+#### Editor 1 - Thonny
+- Just write your code and press run at the top
+
+#### Editor 2 - VS Code (My preferred editor - and the one used in example images)
+- Make a new folder and open it in VS
+- Right click on the file explorer on the left and then click on setup MicroPico project
+- Make a python file and code away
+
+### Part 3 (Optional) - Make code run on the Plasma2040 automatically when power is connected
+- Make a new python file using one of the methods described above
+- Save the file as main.py on your computer
+    - It is important to save it as main.py as this is will be the only file automatically run
+- Upload the file to the Plasma2040
+    - In Thonny click save as and then select the "MicroPython device" box
+    - In VS Right Click on the main.py file and then select "upload file to Pico"
