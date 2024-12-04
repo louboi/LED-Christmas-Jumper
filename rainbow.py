@@ -3,7 +3,7 @@ from plasma import plasma2040
 import time
 from pimoroni import RGBLED, Button, Analog
 
-NUM_LEDS = 42
+NUM_LEDS = 42 # Change this to the number of LED's you have
 
 DEFAULT_SPEED = 10
 
