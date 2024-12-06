@@ -20,6 +20,7 @@ A DIY, led filled, Christmas jumper that is fully customisable and can be hacked
 
 <p align="center">
     <img width="450" height="800" src="https://github.com/user-attachments/assets/d29a71b4-ea97-493b-b4d2-2bde60be2931" >
+    <img width="450" height="800" src="https://github.com/user-attachments/assets/f3a6f59b-0886-4add-82b6-390fbecde55c" >
 </p>
 
 ## Prerequisites:
