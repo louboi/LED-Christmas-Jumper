@@ -13,13 +13,14 @@ A DIY, led filled, Christmas jumper that is fully customisable and can be hacked
 ## Honourable mentions
 
 - [Pimoroni](https://github.com/pimoroni) Maker of the Plasma2040 and the LED strip
-- [Raspberry Pi](https://github.com/raspberrypi) Maker of teh RP2040 and many other wonderfull things
+- [Raspberry Pi](https://github.com/raspberrypi) Maker of the RP2040 and many other wonderfull things
 - [@paulober](https://github.com/paulober) Maker of the MicroPico extension for VS
 
 ## Demo
 
-<p align="center">
-    <img width="450" height="800" src="https://github.com/user-attachments/assets/d29a71b4-ea97-493b-b4d2-2bde60be2931" >
+<p>
+    <img width="337" height="600" src="https://github.com/user-attachments/assets/d29a71b4-ea97-493b-b4d2-2bde60be2931" >
+    <img width="471" height="600" src="https://github.com/user-attachments/assets/f3a6f59b-0886-4add-82b6-390fbecde55c" >
 </p>
 
 ## Prerequisites:
@@ -46,9 +47,9 @@ pico-v1.xx.x-pimoroni-micropython.uf2
 - Copy the downloaded .uf2 file onto the drive that has appeared labeled "RPI-RP2"
     - Note: Do not add it into any folders just paste it into the root folder
 #### Part 1.3 - Connect the LED strip
-- Connect the wire with the black dots to the terminal labeled 5V
-- Connect the middle wire to the terminal labeled DA
-- Connect the final wire to the terminal labeled -
+- Connect the wire with the black dots to the terminal labeled **"5V"**
+- Connect the middle wire to the terminal labeled **"DA"**
+- Connect the final wire to the terminal labeled **"-"**
 
 ### Part 2 - Prepare to start running code on the Plasma2040
 #### Editor 1 - Thonny
