@@ -4,7 +4,7 @@ A DIY, led filled, Christmas jumper that is fully customisable and can be hacked
 
 ## Warning!
 
-**The Led strip may get hot in use. Do not wrap tightly or attach to anything that acn be extremely flamable**
+**The Led strip may get hot in use. Do not wrap tightly or attach to anything that can be extremely flamable**
 
 ## Authors
 
@@ -30,7 +30,7 @@ A DIY, led filled, Christmas jumper that is fully customisable and can be hacked
 - A controller that is RP2040 based
     - I used a Pimoroni [Plasma 2040](https://shop.pimoroni.com/products/plasma-2040?variant=39410354847827)
 - A method of powering them
-    - I just used a usb battery bank, however you can just plug it into the wall
+    - I just used a usb battery bank, however you can just plug it into the wall (just remember to unplug it when you move!)
 
 ## Installation
 ### Part 1 - Preparing the Plasma2040
