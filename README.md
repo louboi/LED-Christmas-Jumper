@@ -6,6 +6,9 @@ A DIY, led filled, Christmas jumper that is fully customisable and can be hacked
 
 **The Led strip may get hot in use. Do not wrap tightly or attach to anything that can be extremely flamable**
 
+## IMPORTANT NOTICE!
+**VSC MAY NOT WORK ON YOUR DEVICE IF IT USES WINDOWS ON ARM. I AM AWARE AND WORKING TO FIX THIS.**
+
 ## Authors
 
 - [@louboi](https://github.com/louboi)
@@ -35,11 +38,11 @@ A DIY, led filled, Christmas jumper that is fully customisable and can be hacked
 ## Installation
 ### Part 1 - Preparing the Plasma2040
 #### Part 1.1 - Download the firmware
-Go to the [Pimoroni repository](https://github.com/pimoroni/pimoroni-pico) and download the correct image.
+Go to the new dedicated [Plasma repository](https://github.com/pimoroni/plasma) and download the correct image.
 
 Downlad the file with the name that resembles the example below:
 ```text
-pico-v1.xx.x-pimoroni-micropython.uf2
+plasma_2040-Vx.x.x-micropython[-with-filesystem].uf2
 ```
 #### Part 1.2 - Flash the firmware
 - Plug the Plasma2024 in using a usb-c cable
