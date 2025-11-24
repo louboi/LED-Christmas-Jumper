@@ -1,12 +1,12 @@
 import plasma
-from plasma import plasma2040
+import machine
 import time
 
 LEDS = 50
 i = 0
 x = 0
 
-led_strip = plasma.WS2812(LEDS, 0, 0, plasma2040.DAT)
+led_strip = plasma.WS2812(LEDS, 0, 0, machine.Pin("PLASMA_DAT"))
 
 led_strip.start()
 

@@ -1,7 +1,7 @@
 import plasma
-from plasma import plasma2040
+import machine
 import time
-from pimoroni import RGBLED, Button, Analog
+from pimoroni import RGBLED #, Analog
 
 NUM_LEDS = 42 # Change this to the number of LED's you have
 
@@ -9,13 +9,13 @@ DEFAULT_SPEED = 10
 
 UPDATES = 60
 
-led_strip = plasma.WS2812(NUM_LEDS, 0, 0, plasma2040.DAT)
+led_strip = plasma.WS2812(NUM_LEDS, 0, 0, machine.Pin("PLASMA_DAT"))
 
-user_sw = Button(plasma2040.USER_SW)
-button_a = Button(plasma2040.BUTTON_A)
-button_b = Button(plasma2040.BUTTON_B)
-led = RGBLED(plasma2040.LED_R, plasma2040.LED_G, plasma2040.LED_B)
-sense = Analog(plasma2040.CURRENT_SENSE, plasma2040.ADC_GAIN, plasma2040.SHUNT_RESISTOR)
+user_sw = machine.Pin("USER_SW")
+button_a = machine.Pin("BUTTON_A")
+button_b = machine.Pin("BUTTON_B")
+led = RGBLED("LED_R", "LED_G", "LED_B")
+# sense = Analog(plasma2040.CURRENT_SENSE, plasma2040.ADC_GAIN, plasma2040.SHUNT_RESISTOR)
 
 led_strip.start()
 
@@ -32,6 +32,6 @@ while True:
     led.set_rgb(speed, 0, 255 - speed)
     count += 1
     if count >= UPDATES:
-        print("Current =", sense.read_current(), "A")
+        # print("Current =", sense.read_current(), "A")
         count = 0
     time.sleep(1.0 / UPDATES)
