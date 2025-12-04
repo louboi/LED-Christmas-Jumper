@@ -41,7 +41,7 @@ A DIY, led filled, Christmas jumper that is fully customisable and can be hacked
 Go to the new dedicated [Plasma repository](https://github.com/pimoroni/plasma) and download the correct image.
 
 Downlad the file with the name that resembles the example below:
-```text
+```
 plasma_2040-Vx.x.x-micropython[-with-filesystem].uf2
 ```
 #### Part 1.2 - Flash the firmware
@@ -62,19 +62,20 @@ plasma_2040-Vx.x.x-micropython[-with-filesystem].uf2
 
 #### Editor 2 - VS Code (My preferred editor - and the one used in example images)
 - Download VS from [here](https://code.visualstudio.com/)
-- Open VS and go to the extension tab and search for "MicroPico" and install it
-    - Also ensure you have the python extensions installed
-- Plug your Plasma2040 in and it should automatically install
+- Open VS and go to the extension tab and search for "Raspberry Pi Pico" and install it
+    - Ensure the all dependencies are installed
+- Plug your Plasma2040 in -I dont know what happens next yet-
     - If this doesn't work then refer to the [wiki](https://github.com/louboi/LED-Christmas-Jumper/wiki) for more help
 
 ### Part 3 - Actually run code on the Plasma2040
 #### Editor 1 - Thonny
-- Just write your code and press run at the top
+- Just write your code and press run at the top, or press F5
 
 #### Editor 2 - VS Code (My preferred editor - and the one used in example images)
 - Make a new folder and open it in VS
-- Right click on the file explorer on the left and then click on setup MicroPico project
+- Open the file explorer tab and click on create pico project
 - Make a python file and code away
+- Optionally, delete the pre-existing blink.py file
 
 ### Part 3 (Optional) - Make code run on the Plasma2040 automatically when power is connected
 - Make a new python file using one of the methods described above
